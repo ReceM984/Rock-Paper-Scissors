@@ -21,8 +21,6 @@ window.addEventListener('load', function() {
 });
 
 function update() {
-    ctx.fillStyle = gradient;
-    ctx.fillRect(0, 0, board.width, board.height);
 
     ctx.drawImage(rockVals[0], rockVals[1], rockVals[2], rockVals[3], rockVals[4]);
     ctx.drawImage(paperVals[0], paperVals[1], paperVals[2], paperVals[3], paperVals[4]);
